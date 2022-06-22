@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="classSelect.js"></script>
+    <title>Dungeons and Dragons Random Character Generator!</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="header">
+        <a href="../index.html">Homepage</a>
+        <a href="../dndrandom.html">Random Character Generator</a>
+        <a href="../diceroller.html">Dice Roller</a>
+        <a href="../about.html">About me</a>
+      </nav>
+      <br />
+    </div>
+    <br />
+    <div id="content" class="classContainer">
+      <h1>Class:</h1>
+      <p id="outputClass"></p>
+    </div>
+    <div id="content" class="raceContainer">
+      <h1>Race:</h1>
+      <p id="outputRace"></p>
+    </div>
+
+    <br />
+    <button class="resetButton" id="reset" onclick="generateFull()">
+      Generate Options!
+    </button>
+  </body>
+</html>
